@@ -20,6 +20,16 @@ If you already have Cubby installed, quit it before replacing it in Applications
 
 Cubby is signed with a Developer ID certificate and notarized by Apple.
 
+## Updates
+
+Starting with Cubby **1.0.1**, open the three-dot menu and choose **Check for Updates…**
+to install a newer release. Cubby also checks automatically and asks before
+installing. You can turn automatic checks off in the same menu.
+
+If you installed the original **1.0** release, download and install the latest
+version manually once to get the updater. Future releases can then be installed
+from within Cubby.
+
 ## About this repository
 
 This repository hosts Cubby's public downloads and release notes. The application source code is maintained separately in a private repository.
