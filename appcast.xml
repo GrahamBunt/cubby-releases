@@ -1,8 +1,31 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Cubby</title>
+        <item>
+            <title>1.0.2</title>
+            <pubDate>Wed, 23 Sep 2026 10:59:22 -0600</pubDate>
+            <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
+            <sparkle:version>1.0.8</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[You can now completely quit Cubby from its three-dot menu.
+
+- Choose **Quit Cubby** at the bottom of the menu to close the app and remove its menu bar icon.
+- Pending changes are saved before Cubby exits.
+- Once Cubby has quit, you can move the app from Applications to the Trash.
+
+Quitting or deleting the app does not erase your saved content or preferences.
+
+If you have Cubby 1.0.1, choose **Check for Updates…** in the three-dot menu to install this release. Users on the original 1.0 release need to download and install the DMG manually once.
+
+Requires macOS 14 Sonoma or later. Supports Apple Silicon and Intel Macs.
+]]></description>
+            <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.2/Cubby-1.0.2-macOS.dmg" length="3918163" type="application/octet-stream" sparkle:edSignature="Bb4/2g+OOddAmJxjyBAW7V1WZoE/uhICzOg/DQSEbccw4mRvf+WLRN0EQpsSJRRRyB9eXS2Bn+5Ym03AkZP4Cg=="/>
+        </item>
         <item>
             <title>1.0.1</title>
             <pubDate>Wed, 23 Sep 2026 10:31:47 -0600</pubDate>
@@ -20,10 +43,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 Requires macOS 14 Sonoma or later. Supports Apple Silicon and Intel Macs.
 ]]></description>
-            <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.1/Cubby-1.0.1-macOS.dmg" length="3917814" type="application/octet-stream" sparkle:edSignature="UfK70cAeDa8rKrieZpCJtekQiOWZ2sxOHophCNG6zhS1FC2liZC8CUdpUPwrFMCa/7u7sCPRWSlxm7fgyiR9DA=="></enclosure>
+            <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.1/Cubby-1.0.1-macOS.dmg" length="3917814" type="application/octet-stream" sparkle:edSignature="UfK70cAeDa8rKrieZpCJtekQiOWZ2sxOHophCNG6zhS1FC2liZC8CUdpUPwrFMCa/7u7sCPRWSlxm7fgyiR9DA=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: CGgMG0cd+hYfGEFO7fR7taDla8hUftHAi2/MTioqQgE0jTHAH28APrJgFR7eOYjTFJd9urLSWUCFDkzCBhmBBg==
-length: 1833
+</rss>
+<!-- sparkle-signatures:
+edSignature: UQBTaWD08pjn/0vYhIl2gvwgOoD8hwi6eCWS66WrPes75CytZyAE/HhYsUv+3awQsoC7nhtZQFXEez+yxr8LAA==
+length: 3232
 -->
