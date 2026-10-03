@@ -6,6 +6,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Cubby</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Sat, 03 Oct 2026 14:31:29 -0600</pubDate>
+            <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
+            <sparkle:version>1.0.10</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[More focused note editing and clearer action controls.
+
+- Use the outlined pencil to edit a note. An amber outline marks the editor, with the original timestamp on the left and Cancel and Save on the right.
+- Copy, Edit, and Delete stay hidden while editing. Saving keeps the note’s original date and position; Cancel discards the draft.
+- Submitting a new note closes any open editors and discards their unsaved drafts.
+- Cancel and Save now have compact, matching hover states.
+- Entry actions across Clipboard, Screenshots, and Notes use Cubby’s custom tooltips, with a short delay and placement below each icon.
+
+Choose **Check for Updates…** in Cubby’s three-dot menu to install this release. Users on the original Cubby 1.0 need to download and install the DMG manually once.
+
+Requires macOS 14 Sonoma or later. Supports Apple Silicon and Intel Macs.
+]]></description>
+            <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.4/Cubby-1.0.4-macOS.dmg" length="5425345" type="application/octet-stream" sparkle:edSignature="vnfONhR/sI++UugK09Vm3rb/Y3cq9VAUwGaAsDRMIs7eUCg+mBUQEA4l6Y87lYNFZpiz0UJBptEehmVF57k8Aw=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Thu, 01 Oct 2026 11:11:28 -0600</pubDate>
             <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
@@ -49,28 +70,9 @@ Requires macOS 14 Sonoma or later. Supports Apple Silicon and Intel Macs.
 ]]></description>
             <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.2/Cubby-1.0.2-macOS.dmg" length="3918163" type="application/octet-stream" sparkle:edSignature="Bb4/2g+OOddAmJxjyBAW7V1WZoE/uhICzOg/DQSEbccw4mRvf+WLRN0EQpsSJRRRyB9eXS2Bn+5Ym03AkZP4Cg=="/>
         </item>
-        <item>
-            <title>1.0.1</title>
-            <pubDate>Wed, 23 Sep 2026 10:31:47 -0600</pubDate>
-            <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
-            <sparkle:version>1.0.7</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Cubby can now check for updates and install new releases from inside the app.
-
-- Open the three-dot menu and choose **Check for Updates…** to check anytime.
-- Automatic update checks are enabled by default. You can turn them off in the same menu.
-- Cubby asks before installing an update; your notes, screenshots, and clipboard history stay in place.
-
-**Upgrading from Cubby 1.0:** download the DMG, quit Cubby, and replace it in Applications. This one-time manual upgrade adds the updater. Future releases can be installed through Cubby.
-
-Requires macOS 14 Sonoma or later. Supports Apple Silicon and Intel Macs.
-]]></description>
-            <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.1/Cubby-1.0.1-macOS.dmg" length="3917814" type="application/octet-stream" sparkle:edSignature="UfK70cAeDa8rKrieZpCJtekQiOWZ2sxOHophCNG6zhS1FC2liZC8CUdpUPwrFMCa/7u7sCPRWSlxm7fgyiR9DA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ojspfb1QCKpHpZbRR/vVDTEHSZSrcLtYDzC6GTpQ74ht5ck+/HYT/e7sl5RXnKP2JyF5Zgym/KONd+rVdGGADA==
-length: 5011
+edSignature: E131oKCcRfN4qUIRbXvTLfUsRkeTM+l6JVXqUag3+rnnCrb3Ksl8lmXX4FZPxQQDzlTw7VkB3nuPSWOLLXRoBA==
+length: 5261
 -->
