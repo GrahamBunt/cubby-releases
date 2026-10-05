@@ -6,6 +6,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Cubby</title>
         <item>
+            <title>1.0.5</title>
+            <pubDate>Mon, 05 Oct 2026 15:07:27 -0600</pubDate>
+            <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
+            <sparkle:version>1.0.11</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Your collected context stays until you choose to delete it.
+
+- Cubby no longer automatically deletes clipboard history or screenshots. Notes continue to stay saved.
+- Clipboard starts with the last 3 days and Screenshots with the last 30 days. Use Show older to reach earlier captures without losing them.
+- Notes load older entries in batches as you scroll.
+- Bulk cleanup now confirms the number of items before deleting them.
+- Screenshot Storage shows disk usage and offers an optional, confirmed cleanup of screenshots older than 30 days. You can undo deletions while Cubby remains open.
+- Copying older text again adds it to recent clipboard history while preserving the original entry.
+
+Previously deleted content cannot be restored by this update.
+
+Choose **Check for Updates…** in Cubby’s three-dot menu to install this release. Users on the original Cubby 1.0 need to download and install the DMG manually once.
+
+Requires macOS 14 Sonoma or later. Supports Apple Silicon and Intel Macs.
+]]></description>
+            <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.5/Cubby-1.0.5-macOS.dmg" length="5571652" type="application/octet-stream" sparkle:edSignature="FPSWDkA/fvkQ8weMKant0pIlattFGsS9UgZ3txHijdOK8cRkNZ5CQDPyuKS9p1QV5vHBBX3c/oiEkr4B5cBLCQ=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <pubDate>Sat, 03 Oct 2026 14:31:29 -0600</pubDate>
             <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
@@ -49,30 +73,9 @@ Requires macOS 14 Sonoma or later. Supports Apple Silicon and Intel Macs.
 ]]></description>
             <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.3/Cubby-1.0.3-macOS.dmg" length="5309755" type="application/octet-stream" sparkle:edSignature="XwsoxmUwz6xPVhsA5TRZ0ZWHPmmdEYFsPXxBG9ygJeT+tywiXXHiyHfZe29awiX0dIFDceykeayN2BX4nJ74Aw=="/>
         </item>
-        <item>
-            <title>1.0.2</title>
-            <pubDate>Wed, 23 Sep 2026 10:59:22 -0600</pubDate>
-            <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
-            <sparkle:version>1.0.8</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[You can now completely quit Cubby from its three-dot menu.
-
-- Choose **Quit Cubby** at the bottom of the menu to close the app and remove its menu bar icon.
-- Pending changes are saved before Cubby exits.
-- Once Cubby has quit, you can move the app from Applications to the Trash.
-
-Quitting or deleting the app does not erase your saved content or preferences.
-
-If you have Cubby 1.0.1, choose **Check for Updates…** in the three-dot menu to install this release. Users on the original 1.0 release need to download and install the DMG manually once.
-
-Requires macOS 14 Sonoma or later. Supports Apple Silicon and Intel Macs.
-]]></description>
-            <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.2/Cubby-1.0.2-macOS.dmg" length="3918163" type="application/octet-stream" sparkle:edSignature="Bb4/2g+OOddAmJxjyBAW7V1WZoE/uhICzOg/DQSEbccw4mRvf+WLRN0EQpsSJRRRyB9eXS2Bn+5Ym03AkZP4Cg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: E131oKCcRfN4qUIRbXvTLfUsRkeTM+l6JVXqUag3+rnnCrb3Ksl8lmXX4FZPxQQDzlTw7VkB3nuPSWOLLXRoBA==
-length: 5261
+edSignature: y7uxLORMQOwyfnUqchhVCLGyc1rMAADhFXLEunkiacQ8UMBuqYrZFRBVYAi5xaG7h6M1AfiowUSWRP1bU6hIDQ==
+length: 5636
 -->
