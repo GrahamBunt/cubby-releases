@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Cubby</title>
         <item>
+            <title>1.0.7</title>
+            <pubDate>Tue, 06 Oct 2026 13:44:39 -0600</pubDate>
+            <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
+            <sparkle:version>1.0.13</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Cubby 1.0.7 improves opening from the menu bar.
+
+- Brings hidden or unfocused panels forward when you click the menu bar icon.
+- Improves panel behavior across desktops and full-screen spaces.
+- Keeps the panel on screen when using multiple monitors or changing display configurations.
+- Clears stale panel visibility after sleep and desktop changes.
+
+Includes the existing first-time setup and in-app updater. Your notes and screenshots stay in place.
+]]></description>
+            <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.7/Cubby-1.0.7-macOS.dmg" length="5690349" type="application/octet-stream" sparkle:edSignature="Q8Z+/sXWxY0H2Qz3vcZsl43GZSnMUcDPf8FzsUEurLobdm5EuVwK3YivqLhlXnNbJN8Q+oKfkStTOBBhblOQBQ=="/>
+        </item>
+        <item>
             <title>1.0.6</title>
             <pubDate>Tue, 06 Oct 2026 12:39:05 -0600</pubDate>
             <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
@@ -52,30 +70,9 @@ Requires macOS 14 Sonoma or later. Supports Apple Silicon and Intel Macs.
 ]]></description>
             <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.5/Cubby-1.0.5-macOS.dmg" length="5571652" type="application/octet-stream" sparkle:edSignature="FPSWDkA/fvkQ8weMKant0pIlattFGsS9UgZ3txHijdOK8cRkNZ5CQDPyuKS9p1QV5vHBBX3c/oiEkr4B5cBLCQ=="/>
         </item>
-        <item>
-            <title>1.0.4</title>
-            <pubDate>Sat, 03 Oct 2026 14:31:29 -0600</pubDate>
-            <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
-            <sparkle:version>1.0.10</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[More focused note editing and clearer action controls.
-
-- Use the outlined pencil to edit a note. An amber outline marks the editor, with the original timestamp on the left and Cancel and Save on the right.
-- Copy, Edit, and Delete stay hidden while editing. Saving keeps the note’s original date and position; Cancel discards the draft.
-- Submitting a new note closes any open editors and discards their unsaved drafts.
-- Cancel and Save now have compact, matching hover states.
-- Entry actions across Clipboard, Screenshots, and Notes use Cubby’s custom tooltips, with a short delay and placement below each icon.
-
-Choose **Check for Updates…** in Cubby’s three-dot menu to install this release. Users on the original Cubby 1.0 need to download and install the DMG manually once.
-
-Requires macOS 14 Sonoma or later. Supports Apple Silicon and Intel Macs.
-]]></description>
-            <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.4/Cubby-1.0.4-macOS.dmg" length="5425345" type="application/octet-stream" sparkle:edSignature="vnfONhR/sI++UugK09Vm3rb/Y3cq9VAUwGaAsDRMIs7eUCg+mBUQEA4l6Y87lYNFZpiz0UJBptEehmVF57k8Aw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: CeEfWglNo2gzj1RbY/rPk4R+ZafIyU8VwUHsqJ/iyz0TMrP0XbptdDm/3+gmHpQy4p48jOt2ZSuyRzHzL+V+Dg==
-length: 5742
+edSignature: UUfqQmGtyh6a3V5PvE+izXzMgolY9g7nONAAeeMudtL2mEBcaJDhU4HJA8ROGFyC58b4HT2rnjHo8vs5lGc2Dg==
+length: 5330
 -->
