@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Cubby</title>
         <item>
+            <title>1.0.8</title>
+            <pubDate>Wed, 07 Oct 2026 15:07:07 -0600</pubDate>
+            <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
+            <sparkle:version>1.0.14</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Cubby 1.0.8 removes an unwanted blank Settings window.
+
+- Fixes the empty “Cubby Settings” window that could appear while using the app.
+- Preserves standard editing shortcuts, including copy, paste, and undo.
+
+Your notes, clipboard history, and screenshots stay in place.
+]]></description>
+            <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.8/Cubby-1.0.8-macOS.dmg" length="5678066" type="application/octet-stream" sparkle:edSignature="T/jNk3xMKZH8/c03pEJnTXKxc37+VYKXnQ7HWtMoz7wh4Zk623JIcpStnYf1p1rCGes6NsitM7jpdwBCGbnxDA=="/>
+        </item>
+        <item>
             <title>1.0.7</title>
             <pubDate>Tue, 06 Oct 2026 13:44:39 -0600</pubDate>
             <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
@@ -46,33 +62,9 @@ Requires macOS 14 Sonoma or later. Supports Apple Silicon and Intel Macs.
 ]]></description>
             <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.6/Cubby-1.0.6-macOS.dmg" length="5686558" type="application/octet-stream" sparkle:edSignature="BFAufJ3MMTgKUs8fGxddnl0TT8+0t0oSXE3fwkBrHV6GYabtBAK1VLmgqMKZFj5uX5Xy38HQv97yAPiIY4WaDA=="/>
         </item>
-        <item>
-            <title>1.0.5</title>
-            <pubDate>Mon, 05 Oct 2026 15:07:27 -0600</pubDate>
-            <link>https://github.com/GrahamBunt/cubby-releases/releases/latest</link>
-            <sparkle:version>1.0.11</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Your collected context stays until you choose to delete it.
-
-- Cubby no longer automatically deletes clipboard history or screenshots. Notes continue to stay saved.
-- Clipboard starts with the last 3 days and Screenshots with the last 30 days. Use Show older to reach earlier captures without losing them.
-- Notes load older entries in batches as you scroll.
-- Bulk cleanup now confirms the number of items before deleting them.
-- Screenshot Storage shows disk usage and offers an optional, confirmed cleanup of screenshots older than 30 days. You can undo deletions while Cubby remains open.
-- Copying older text again adds it to recent clipboard history while preserving the original entry.
-
-Previously deleted content cannot be restored by this update.
-
-Choose **Check for Updates…** in Cubby’s three-dot menu to install this release. Users on the original Cubby 1.0 need to download and install the DMG manually once.
-
-Requires macOS 14 Sonoma or later. Supports Apple Silicon and Intel Macs.
-]]></description>
-            <enclosure url="https://github.com/GrahamBunt/cubby-releases/releases/download/v1.0.5/Cubby-1.0.5-macOS.dmg" length="5571652" type="application/octet-stream" sparkle:edSignature="FPSWDkA/fvkQ8weMKant0pIlattFGsS9UgZ3txHijdOK8cRkNZ5CQDPyuKS9p1QV5vHBBX3c/oiEkr4B5cBLCQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: UUfqQmGtyh6a3V5PvE+izXzMgolY9g7nONAAeeMudtL2mEBcaJDhU4HJA8ROGFyC58b4HT2rnjHo8vs5lGc2Dg==
-length: 5330
+edSignature: 3ddrAk2sVXG5Bz/QAbVJhTJdGN/7epXbAU8iNaIP3nsbbsY4Y+X4qE3dRft3KLiZPylduHElbo9Wnu1rEoG1Dw==
+length: 4606
 -->
